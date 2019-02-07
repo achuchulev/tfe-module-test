@@ -7,5 +7,5 @@ output "public_dns" {
 }
 
 output "tags" {
-  value = "${module.ec2.new_ec2.tags}"
+  value = "${module.ec2.tags}"
 }
