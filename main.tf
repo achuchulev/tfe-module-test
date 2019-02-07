@@ -5,7 +5,7 @@ module "ec2" {
   access_key = "${var.access_key}"
   secret_key = "${var.secret_key}"
   
-  ami = "${var.public_key}"
+  ami = "${var.ami}"
   instance_type = "${var.instance_type}"
   public_key = "${var.public_key}"
 
