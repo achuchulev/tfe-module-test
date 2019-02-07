@@ -1,2 +1,1 @@
-# tfe-module-test
-Test private module usage
+# A sample repo to test private TFE module registry usage
