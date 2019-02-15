@@ -1,6 +1,6 @@
 module "ec2" {
   source  = "app.terraform.io/atanasc/ec2/aws"
-  version = "0.0.7"
+  version = "0.0.8"
 
   access_key = "${var.access_key}"
   secret_key = "${var.secret_key}"
